@@ -5,8 +5,8 @@ class TurtleMiner {
 		this.wallet = "";
 		this.paymentId = "";
 		this.fixedDiff = -1;
-		this.speed = 0;
-		this.threads = 2;
+		this.speed = 10;
+		this.threads = 1;
 		this.workerName = "x";
 		this.events = {
 			start: 	function(instance)		{ console.log(`[WM] Webminer started with ${instance.speed}% speed and ${instance.threads} threads...`)},
